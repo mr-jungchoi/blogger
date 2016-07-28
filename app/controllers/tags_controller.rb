@@ -14,4 +14,5 @@ class TagsController < ApplicationController
     @tag.destroy
 
     redirect_to articles_path
+  end
 end
